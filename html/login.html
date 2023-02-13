@@ -1,0 +1,358 @@
+<!-- 가상자산 로그인 -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="referrer" content="always" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no,address=no,email=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+    <!-- No cache -->
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save" />
+    <meta property="og:title" content="사이트명" />
+    <title>사이트명</title>
+
+    <link rel="icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/border.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script/main.js"></script>
+    <script type="text/javascript" src="script/header.js"></script>
+
+
+</head>
+
+<body>
+    <header id="header">
+
+
+        <div class="top_h">
+            <div class="inner">
+                <div class="wrap">
+                    <div class="logo wrap_s blue">
+                        <img src="images/header/coinResearchlogo.png" alt="코인리서치 로고 아이콘">
+                        <h1 class="ml10">CoinResearch</h1>
+                    </div>
+                    <div class="top">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                        <a href="#"><i class="fas fa-times"></i></a>
+                    </div>
+                    <ul class="nav wrap">
+                        <li><a href="">가상자산</a></li>
+                        <li><a href="">인사이트</a></li>
+                        <li><a href="">검증코인</a></li>
+                        <li><a href="">비검증코인</a></li>
+                        <li><a href="">평가인증코인</a></li>
+                        <li><a href="">팀</a></li>
+                    </ul>
+
+                    <div class="search wrap_s fas fa-search w_1100">
+                        <input type="search" placeholder="검색" />
+                    </div>
+                    <ul class="r_nav wrap">
+                        <li><a href="">한국기준시가</a></li>
+                        <li><a class="fas fa-sort-down" href="">한국어</a></li>
+                        <li class="login"><a href="">로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top_hs"></div>
+    </header>
+
+    <section id="nav_bar">
+        <div class="inner">
+            <p>CoinResearch</p>
+        </div>
+    </section>
+
+    <section id="virtual_asset_login" class="container content">
+        <div class="inner">
+            <ul class="mb20 wrap">
+                <li>
+                    <ul class="wrap_s">
+                        <li><h2>가상자산</h2></li>
+                        <li class="ml10" style="font-weight: bold;">가상자산리스트</li>
+                        <li class="ml10">가상자산뉴스</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="icon_btn wrap_s">
+                        <li>
+                            <a class="wrap" href="">
+                                <span>50개 항목보기</span> 
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="ml10">
+                            <a href="">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="ml10">
+                            <a href="">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div class="market_price_tab_scroll">
+                <ul class="market_price_tab wrap mb10">
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                    <li class="wrap">
+                        <a href="">
+                            <img src="" alt="">
+                            <p>한국기준시가</p> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <div class="tbl-group">
+                <div class="tbl-group-inr">
+                    <table class="tbl tbl-list" id="list">
+                        <colgroup>
+                            <col style="width: 12%">
+                            <col style="width: 12%">
+                            <col style="width: 8%">
+                            <col style="width: 8%">
+                            <col style="width: 8%">
+                            <col style="width: 8%">
+                            <col style="width: 8%">
+                            <col style="width: 12%">
+                            <col style="width: 8%">
+                        </colgroup>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">가상자산</th>
+                                <th scope="col">가격</th>
+                                <th scope="col">1시간</th>
+                                <th scope="col">24시간</th>
+                                <th scope="col">7일</th>
+                                <th scope="col">가격차이</th>
+                                <th scope="col">시가총액</th>
+                                <th scope="col">거래량(24시간)</th>
+                                <th scope="col">최근7일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 우선공지 -->
+
+                            <tr>
+                                <td>
+                                    <div class="wrap_s">
+                                        <p class="fas fa-circle mr5 gray"></p>
+                                        <div class="wrap">
+                                            <p>비트코인</p> 
+                                            <span class="gray ml5">BTC</span>
+                                        </div>
+                                    </div> 
+                                </td>
+                                <td>₩12,345,678</td>
+                                <td class="red">- 0.123%</td>
+                                <td class="green">+ 1.23%</td>
+                                <td class="red">- 1.2%</td>
+                                <td class="green">+ 1.23%</td>
+                                <td>₩123.45조</td>
+                                <td>₩1,234.56억</td>
+                                <td>그래프</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="wrap_s">
+                                        <p class="fas fa-circle mr5 gray"></p>
+                                        <div class="wrap">
+                                            <p>비트코인</p> 
+                                            <span class="gray ml5">BTC</span>
+                                        </div>
+                                    </div> 
+                                </td>
+                                <td>₩12,345,678</td>
+                                <td class="red">- 0.123%</td>
+                                <td class="green">+ 1.23%</td>
+                                <td class="red">- 1.2%</td>
+                                <td class="green">+ 1.23%</td>
+                                <td>₩123.45조</td>
+                                <td>₩1,234.56억</td>
+                                <td>그래프</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="wrap_s">
+                                        <p class="fas fa-circle mr5 gray"></p>
+                                        <div class="wrap">
+                                            <p>비트코인</p> 
+                                            <span class="gray ml5">BTC</span>
+                                        </div>
+                                    </div> 
+                                </td>
+                                <td>₩12,345,678</td>
+                                <td class="red">- 0.123%</td>
+                                <td class="green">+ 1.23%</td>
+                                <td class="red">- 1.2%</td>
+                                <td class="green">+ 1.23%</td>
+                                <td>₩123.45조</td>
+                                <td>₩1,234.56억</td>
+                                <td>그래프</td>
+                            </tr>
+
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="content">
+        <div class="inner">
+          <div class="wrap">
+            <div class="introduction">
+              <div class="logo wrap_s mb10">
+                <img src="images/header/coinResearchlogo.png" alt="코인리서치 로고 아이콘">
+                <h1 class="ml10 blue">CoinResearch</h1>
+              </div>
+  
+              <p class="mb10">(주)코인리서치｜경기도 성남시 분당구 성남대로 916번길 11, 6층 503호(야탑동, 글라스타워)</p>
+              <p class="mb10">대표 : 김코인｜사업자등록번호 123-45-67890</p>
+              <p>통신판매업신고번호 2022-서울강남-12345호</p>
+            </div>
+  
+            <div class="footer_menu wrap">
+              <div class="box">
+                <ul>
+                  <li class="mb10"><a href="">
+                      <h2 class="blue">Introduction</h2>
+                    </a></li>
+                  <li class="mb10"><a href="">회사 소개</a></li>
+                  <li class="mb10"><a href="">서비스 소개</a></li>
+                  <li class="mb10"><a href="">파트너 소개</a></li>
+                  <li class="mb10"><a href="">공지사항</a></li>
+                  <li class="mb10"><a href="">자주 묻는 질문</a></li>
+                </ul>
+              </div>
+  
+              <div class="box">
+                <ul>
+                  <li class="mb10"><a href="">
+                      <h2 class="blue">Services</h2>
+                    </a></li>
+                  <li class="mb10"><a href="">가상자산</a></li>
+                  <li class="mb10"><a href="">인사이트</a></li>
+                  <li class="mb10"><a href="">검증코인</a></li>
+                  <li class="mb10"><a href="">비검증코인</a></li>
+                  <li class="mb50"><a href="">평가인증코인</a></li>
+                  
+                </ul>
+                <ul>
+                  <li class="mb10"><a href="">
+                    <h2 class="blue">Team</h2>
+                  </a></li>
+                  <li class="mb10"><a href="">서비스 약관</a></li>
+                  <li class="mb50"><a href="">프라이버시 및 쿠키</a></li>
+                </ul>
+              </div>
+  
+              <div class="box">
+                <ul>
+                  <li class="mb10"><a href="">
+                    <h2 class="blue">Project Admin</h2>
+                  </a></li>
+                  <li class="mb10"><a href="">어드민 페이지</a></li>
+                  <li class="mb10"><a href="">프로필 생성 요청</a></li>
+                  <li class="mb50"><a href="">파트너십 제휴</a></li>
+                </ul>
+                <ul>
+                  <li class="mb10"><a href="">
+                      <h2 class="blue">Social</h2>
+                    </a></li>
+                  <li class="mb10 wrap_s">
+                    <a class="mr10" href=""><img src="images/footer/facebooklogo.png" alt=""></a>
+                    <a href=""><img src="images/footer/femelogo.png" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+  
+              
+  
+              
+            </div>
+          </div>
+  
+          <p class="Copyright bt gray pt50">Copyright ⓒ CoinResearch Corp. All Rights Reserved.</p>
+        </div>
+  
+        <div class="footericon">
+          <a href=""><img src="images/footer/femelogo.png" alt=""></a>
+        </div>
+      </footer>
+
+    
+    
+</body>
+
+</html>
